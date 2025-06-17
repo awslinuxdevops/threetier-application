@@ -52,7 +52,6 @@ resource "aws_security_group" "security-group" {
       from_port        = port
       to_port          = port
       protocol         = "tcp"
-      ipv6_cidr_blocks = ["::/0"]
       self             = false
       prefix_list_ids  = []
       security_groups  = []
