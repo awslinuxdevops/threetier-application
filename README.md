@@ -1,17 +1,13 @@
 
-# 🚀 #TWSThreeTierAppChallenge
+#  #Threetier-Application
 
-Welcome to the **#TWSThreeTierAppChallenge** repository! This challenge is designed for the  to get hands-on experience deploying a **Three-Tier Web Application** using **ReactJS**, **NodeJS**, and **MongoDB** on **AWS EKS**.
+Welcome to the **#Threetier-Application** repository! This challenge is designed for the  to get hands-on experience deploying a **Three-Tier Web Application** using **ReactJS**, **NodeJS**, and **MongoDB** on **AWS EKS**.
 
 Merged Pull Requests will win exciting prizes! 
 
 
 
 ##  Resources
-
-- **[Get The Challenge Here](#)**  
-- **[YouTube Video Walkthrough](#)**
-
 
 
 ##  Prerequisites
