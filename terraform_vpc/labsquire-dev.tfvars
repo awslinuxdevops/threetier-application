@@ -1,0 +1,12 @@
+aws_region           = "us-east-1"
+azs                  = ["us-east-1a", "us-east-1b"]
+ec2_availability_zone = "us-east-1a"
+ec2_ami_id           = "ami-020cba7c55df1f615"
+ec2_instance_type    = "t3a.medium"
+key_name             = "labsquire-dev"
+project_name         = "labsquire"
+vpc_cidr             = "10.0.0.0/16"
+public_subnet_cidrs  = ["10.0.3.0/24", "10.0.4.0/24"]
+private_subnet_cidrs = ["10.0.5.0/24", "10.0.6.0/24"]
+labsquire_network    = "202.164.134.194/32"
+public_key_path      = ".labsquire/labsquire-dev.pub"
