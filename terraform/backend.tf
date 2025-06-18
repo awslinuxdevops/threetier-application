@@ -1,16 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "my-eks-bigbasket"
+    bucket         = "labsquire-dev-terraform-state"
+    key            = "dev-labs/terraform.tfstate"
     region         = "us-east-1"
-    key            = "Threetier-application/terraform/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "labsquire-dev-lock-table"
     encrypt        = true
-  }
-  required_version = ">=0.13.0"
-  required_providers {
-    aws = {
-      version = ">= 2.7.0"
-      source  = "hashicorp/aws"
-    }
   }
 }
